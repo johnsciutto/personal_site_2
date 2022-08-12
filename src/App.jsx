@@ -13,7 +13,7 @@ function App() {
           size="large"
           variant="contained"
         >
-          Testing This Outt
+          Testing This Out
         </Button>
       </Grid>
     </Grid>
