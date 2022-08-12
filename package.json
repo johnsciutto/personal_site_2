@@ -2,10 +2,13 @@
   "name": "personal_site_2",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://johnsciutto.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -18,6 +21,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^4.0.0",
     "vite": "^2.9.15"
   }
 }
